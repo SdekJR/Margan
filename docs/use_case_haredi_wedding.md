@@ -130,6 +130,11 @@ The agent filters and recommends vendors based on strict Orthodox standards:
 *   **What the system does:** Coordinates the seven days of festive meals following the wedding. The agent helps schedule who is hosting each night, manages guest lists for each specific night, and tracks catering or meal prep details.
 *   **Why:** Organizing seven consecutive days of mini-events immediately after the main wedding is exhausting. The agent automates the scheduling and guest tracking so the family can focus on celebrating.
 
+### 8. Kosher Phone Voice Integration (IVR & Voice Agent)
+*   See the [Detailed Kosher Phone Voice Integration Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_kosher_phone_integration.md) for specifics on phone-based voice coordination.
+*   **What the system does:** Provides a conversational voice agent interface. Users calling from pre-registered phone lines are authenticated via Caller ID and can verbally query progress, check checklists, complete tasks, or add budget items using spoken Hebrew/Yiddish or keypad commands (DTMF).
+*   **Why:** Ensures full platform accessibility for Haredi family members who use approved internet-disabled "kosher phones" and cannot use modern smartphone apps or websites.
+
 ---
 
 ## Reference & Auxiliary Materials

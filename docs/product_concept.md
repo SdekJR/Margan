@@ -21,9 +21,13 @@ The application is cross-platform, targeting **Web browsers**, **iOS**, and **An
 *   **What it does:** Recommends and evaluates local businesses and vendors (e.g., venues, caterers, decorators) based on highly specific criteria, constraints, and requirements (e.g., specific kosher certifications, modesty accommodations, capacity).
 *   **Why it's needed:** Finding specialized vendors manually is time-consuming. The agent pre-filters options that strictly align with the user's specific rules and preferences.
 
-### 4. Smart Reminders & Automation Agent
-*   **What it does:** Automatically tracks deadlines, sends proactive reminders, and handles minor communications (e.g., drafting inquiries to vendors, checking availability, and adjusting plans when delays occur).
-*   **Why it's needed:** Planning complex events requires constant follow-up. Automating these micro-interactions relieves cognitive load.
+### 4. AI-Driven Reminders & Automation Agent
+*   **What it does:** Uses natural language processing and machine learning to act as an active assistant. It automatically tracks deadlines, sends proactive reminders, drafts vendor communications (e.g., inquiring about pricing or availability), and dynamically adjusts timelines and budgets when changes or delays occur.
+*   **Why it's needed:** Complex events are highly dynamic. Having an active AI agent that monitors state changes, renegotiates dependencies, and automates communication relieves immense administrative burden.
+
+### 5. Kosher Phone Voice Interface (Voice Agent)
+*   **What the system does:** Integrates an Interactive Voice Response (IVR) system powered by a voice AI agent. Users calling from registered phone numbers can query progress, mark tasks complete, and verbally log new budget items using natural language speech or telephone keypads (DTMF).
+*   **Why it's needed:** A significant portion of the Haredi community uses non-smart "kosher phones" with no internet/app capabilities. A conversational telephone voice interface provides full system accessibility to all stakeholders.
 
 ---
 
