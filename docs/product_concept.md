@@ -3,7 +3,7 @@
 ## Vision
 **Margan** is an intelligent, agent-like assistant designed to guide individuals through highly complex, multi-stage life milestones. It goes beyond static checklists by acting as an active planning agent that automates coordination, dynamically manages budgets, matches users with contextual service providers, and automates administrative overhead.
 
-The application is cross-platform, targeting **Web browsers**, **iOS**, and **Android** devices, providing a seamless experience across desktop and mobile.
+The application is cross-platform, targeting **Web browsers**, **iOS**, and **Android** devices, providing a seamless experience for both event organizers (consumers) and service providers/vendors (contact persons) across desktop and mobile.
 
 ---
 
@@ -14,16 +14,24 @@ The application is cross-platform, targeting **Web browsers**, **iOS**, and **An
 *   **Why it's needed:** Complex milestones involve hundreds of interdependent tasks and early preparatory phases. A structured roadmap that spans the entire timeline and separates responsibilities keeps all parties aligned.
 
 ### 2. Intelligent Budget Management
-*   **What it does:** Tracks expenses, projects total costs, and manages multi-party financial contributions. It allows splitting shared expenses under custom rules, assigning specific costs to individual parties (e.g., Groom's family vs. Bride's family), and calculates a final financial reconciliation showing who owes what to whom.
+*   **What it does:** Tracks expenses, projects total costs, and manages multi-party financial contributions. It allows splitting shared expenses under custom rules, assigning specific costs to individual parties (e.g., Groom's family vs. Bride's family), and calculates a financial reconciliation ledger showing who owes what to whom.
 *   **Why it's needed:** Major events involve multiple funding parties and complex cost-sharing agreements. Transparency and automated ledger calculations prevent financial disputes and ensure smooth cost settlements.
 
 ### 3. Contextual Vendor Matchmaking & Search
 *   **What it does:** Recommends and evaluates local businesses and vendors (e.g., venues, caterers, decorators) based on highly specific criteria, constraints, and requirements (e.g., specific kosher certifications, modesty accommodations, capacity).
 *   **Why it's needed:** Finding specialized vendors manually is time-consuming. The agent pre-filters options that strictly align with the user's specific rules and preferences.
 
-### 4. Smart Reminders & Automation Agent
-*   **What it does:** Automatically tracks deadlines, sends proactive reminders, and handles minor communications (e.g., drafting inquiries to vendors, checking availability, and adjusting plans when delays occur).
-*   **Why it's needed:** Planning complex events requires constant follow-up. Automating these micro-interactions relieves cognitive load.
+### 4. AI-Driven Reminders & Automation Agent
+*   **What it does:** Uses natural language processing and machine learning to act as an active assistant. It automatically tracks deadlines, sends proactive reminders, drafts vendor communications (e.g., inquiring about pricing or availability), and dynamically adjusts timelines and budgets when changes or delays occur.
+*   **Why it's needed:** Complex events are highly dynamic. Having an active AI agent that monitors state changes, renegotiates dependencies, and automates communication relieves immense administrative burden.
+
+### 5. Kosher Phone Voice Interface (Voice Agent)
+*   **What the system does:** Integrates an Interactive Voice Response (IVR) system powered by a voice AI agent. Users calling from registered phone numbers can query progress, mark tasks complete, and verbally log new budget items using natural language speech or telephone keypads (DTMF).
+*   **Why it's needed:** A significant portion of the Haredi community uses non-smart "kosher phones" with no internet/app capabilities. A conversational telephone voice interface provides full system accessibility to all stakeholders.
+
+### 6. Vendor Collaboration, Contracts & Smart Contracts
+*   **What it does:** Facilitates end-to-end interactions between organizers and vendors who both use the Margan system. It provides dual-role calendars (organizer planning vs. vendor scheduling), specialized group and vendor chats, automated chat summarization into agreement documents, automatic contract updates based on chat agreements, AI-driven extraction of contract duties into simple checklists, and support for payments using cash/fiat or digital Stable-Shekel smart contracts.
+*   **Why it's needed:** Multi-vendor operations involve constant updates (e.g., changing menu options or adding decor). Keeping agreements up-to-date and payments secure requires automated contract alignment and a friction-free payment network.
 
 ---
 

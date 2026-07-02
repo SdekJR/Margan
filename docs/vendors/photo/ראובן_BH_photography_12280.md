@@ -1,0 +1,18 @@
+# ראובן BH photography
+
+**Category (Hebrew):** צילום  
+**Category (English):** photo  
+**Post ID:** 12280
+
+## Contact & Location Details
+- **Address:** 
+- **Phones:** 050-2565455
+
+## Gallery & Images
+![Main Image](https://simchabeclick.co.il/wp-content/uploads/2019/06/shutterstock_1264835503-Small-420x275.jpg)
+
+## Client Bookings & Notes
+- **Status:** `[ ] Contacted` / `[ ] Quote Received` / `[ ] Booked` / `[ ] Paid`
+- **Quote/Pricing Details:** 
+- **Meeting Notes:** 
+- **Special Requests:** 

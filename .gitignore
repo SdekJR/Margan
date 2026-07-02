@@ -1,0 +1,9 @@
+# Scratch and temporary scripts
+scratch/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local user configurations
+.agents/user_config.json

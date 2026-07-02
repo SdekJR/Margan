@@ -1,0 +1,18 @@
+# מירי גלן – mini gudis
+
+**Category (Hebrew):** קייטרינג  
+**Category (English):** catering  
+**Post ID:** 20994
+
+## Contact & Location Details
+- **Address:** 
+- **Phones:** 054-6355601
+
+## Gallery & Images
+![Main Image](https://simchabeclick.co.il/wp-content/uploads/2019/03/shutterstock_685328947-Small-420x275.jpg)
+
+## Client Bookings & Notes
+- **Status:** `[ ] Contacted` / `[ ] Quote Received` / `[ ] Booked` / `[ ] Paid`
+- **Quote/Pricing Details:** 
+- **Meeting Notes:** 
+- **Special Requests:** 
