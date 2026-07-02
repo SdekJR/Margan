@@ -135,10 +135,16 @@ The agent filters and recommends vendors based on strict Orthodox standards:
 *   **What the system does:** Provides a conversational voice agent interface. Users calling from pre-registered phone lines are authenticated via Caller ID and can verbally query progress, check checklists, complete tasks, or add budget items using spoken Hebrew/Yiddish or keypad commands (DTMF).
 *   **Why:** Ensures full platform accessibility for Haredi family members who use approved internet-disabled "kosher phones" and cannot use modern smartphone apps or websites.
 
+### 9. Vendor Collaboration & Contract Management
+*   See the [Detailed Vendor Collaboration Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_vendor_collaboration_and_contracts.md) for specifics on shared calendars, chats, and contracts.
+*   **What the system does:** Connects organizers and vendors via a shared workspace on mobile/web. It offers separate calendars, multi-party chats, auto-updates to contracts from chat changes, AI checklist digests from uploaded contracts, and integrated fiat/Stable-Shekel payments.
+*   **Why:** Streamlines vendor communication, ensures all change requests are legally captured, and provides an easy verification checklist and payment system for the wedding day.
+
 ---
 
 ## Reference & Auxiliary Materials
 To support the planning process, the following reference databases and checklists have been compiled:
+*   [Detailed Vendor Collaboration Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_vendor_collaboration_and_contracts.md) — Shared calendars, chats, automatic contract revisions, and payment options.
 *   [Margan Wedding Vendors Database Guide](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/vendors_guide.md) — Reference on categories and generation of individual vendor cards (*kartisim*).
 *   [Reference: Customary Gifts Database](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/reference/gifts/customary_gifts_database.md) — What is customary to give, to whom, when, and how.
 *   [Reference: Jewish & Haredi Wedding Checklists](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/reference/checklists/jewish_wedding_checklist.md) — Systematized planning checklists and milestones.

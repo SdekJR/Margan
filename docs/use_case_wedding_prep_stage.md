@@ -3,7 +3,7 @@
 ## Overview
 The **Wedding Preparation Stage** occurs 1 to 2 months before the wedding. It is a highly collaborative phase where both the Groom's and Bride's families coordinate major bookings, design choices, guest lists, and large-scale invitations. 
 
-Unlike previous engagement stages, the wedding itself involves a very wide circle of guests (often 400 to 1,000+ people), requiring robust logistics and vendor coordination.
+Unlike previous engagement stages, the wedding itself involves a very wide circle of guests (often 400 to 1,000+ people), requiring robust logistics and vendor coordination. Detailed collaboration workflows (including shared calendars, multi-party chats, contract tracking, AI checklists, and payments) are documented in the [Detailed Vendor Collaboration Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_vendor_collaboration_and_contracts.md).
 
 ---
 
