@@ -16,9 +16,9 @@ According to traditional custom in this project, the **Groom's side** is the pri
 ### 2. Guest List & Automated Invitations
 *   **What the system does:** 
     *   Allows the Groom's family and Bride's family to import/add contacts and mark them as "Close Family" or "Close Friends."
-    *   Drafts and sends automated invitations (via Email, SMS, or phone-call integrations) tailored to Haredi community norms.
+    *   Drafts and sends automated invitations via the channels each guest actually has (Email or SMS where available). For kosher-phone guests without SMS/email — a large share of the audience — the system generates a **personal calling list** with the invitation text to read out, split among family members (same mechanism as the RSVP Calling Campaign in [use_case_wedding_prep_stage.md](./use_case_wedding_prep_stage.md)).
     *   Tracks RSVPs in real time, updating the guest headcount.
-*   **Why:** The Vort is organized very rapidly. Families need a quick, automated way to invite a small, specific circle of guests and track responses without making hundreds of individual phone calls.
+*   **Why:** The Vort is organized very rapidly. Families need a quick way to invite a small, specific circle of guests and track responses, including guests reachable only by voice call.
 
 ### 3. Shopping List & Refreshments Manager
 *   **What the system does:** Generates a pre-populated shopping list for light refreshments, pastries, and drinks typical for a Vort, allowing the host to adjust quantities based on the confirmed guest count.
@@ -31,6 +31,7 @@ According to traditional custom in this project, the **Groom's side** is the pri
     *   **Vort Decorations:** Traditional decorations for the home or synagogue hall.
     *   **Meurasim Poster:** An engagement poster/sign displayed at the entrance of the event.
 *   **Why:** These specific purchases are socially and culturally required, and tracking who is responsible for buying and bringing them prevents last-minute stress.
+*   **Note:** The engagement gifts (jewelry for the bride, Shas for the groom) also appear in the [Erusin stage](./use_case_erusin_stage.md). Each gift is a **single task** with purchase and presentation sub-steps; whether it is presented at the Vort or at the Erusin is a Community Profile parameter (see [community_customs_parametrization.md](./community_customs_parametrization.md)) — the system must not create duplicate gift tasks across the two stages.
 
 ### 5. Newspaper Announcement ("Meurasim")
 *   **What the system does:** 

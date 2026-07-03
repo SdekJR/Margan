@@ -3,7 +3,7 @@
 ## Overview
 Following the wedding, the couple celebrates the **Sheva Brachot** (Seven Blessings) for seven consecutive days. Each evening, a festive meal is hosted where the wedding blessings are repeated in the presence of guests. 
 
-Additionally, the Shabbat falling within these seven days (**Shabbat Sheva Brachot**) is a major logistical event. It is traditionally hosted by the **Bride's family** in their city of residence, requiring accommodation for the Groom's family and out-of-town guests who cannot travel on Shabbat.
+Additionally, the Shabbat falling within these seven days (**Shabbat Sheva Brachot**) is a major logistical event. In this project's default custom it is hosted by the **Bride's family** in their city of residence (the hosting side is a Community Profile parameter — see [community_customs_parametrization.md](./community_customs_parametrization.md)), requiring accommodation for the Groom's family and out-of-town guests who cannot travel on Shabbat.
 
 ---
 

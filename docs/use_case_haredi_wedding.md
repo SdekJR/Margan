@@ -26,7 +26,9 @@ Haredi (Ultra-Orthodox Jewish) weddings are deeply rooted in religious law (Hala
 ---
 
 ## Planning Chronology (Stages)
-Haredi wedding planning is split into distinct chronological phases, each with its own set of joint and side-specific tasks:
+Haredi wedding planning is split into distinct chronological phases, each with its own set of joint and side-specific tasks.
+
+> **Note on customs:** The hosting responsibilities and stage details below describe the project's default custom set. They are configurable parameters of the wedding's Community Profile (Hasidic / Litvish / Sephardic and sub-groups) — see [Community Customs Parametrization](./community_customs_parametrization.md).
 
 ### Phase 1: Pre-Engagement & Shidduch Finalization (Months before)
 *   **Joint:** Confirming the match (*Bashert*), discussing initial financial split expectations.
@@ -36,18 +38,18 @@ Haredi wedding planning is split into distinct chronological phases, each with i
 This phase consists of two distinct events: the small Vort announcement and the larger Erusin (Tna'im) celebration.
 
 *   **Sub-stage 2A: The Vort (Immediate Small Celebration)**
-    *   See the [Detailed Vort Stage Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_vort_stage.md) for details.
+    *   See the [Detailed Vort Stage Use Case](./use_case_vort_stage.md) for details.
     *   **Groom's Side (Primary Host):** Hosts the event at home/synagogue, buys refreshments, prints the *Meurasim* poster, purchases the engagement gift for the bride (jewelry), and schedules the *Meurasim* notice in community newspapers.
     *   **Bride's Side:** Arrives as guests; prepares their gift for the groom.
 
 *   **Sub-stage 2B: The Erusin / Tna'im Celebration (Large Event ~200 Guests)**
-    *   See the [Detailed Erusin Stage Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_erusin_stage.md) for details.
+    *   See the [Detailed Erusin Stage Use Case](./use_case_erusin_stage.md) for details.
     *   **Bride's Side (Primary Host):** Books a hall for 200 people with a gender partition (*Mechitza*), coordinates catering, basic music/sound system, photographer, shuttle transport for Yeshiva/Seminary friends, and drafts the invitation (*Azmana*). Purchases the customized Talmud (*Shas*) for the groom.
     *   **Groom's Side:** Prepares the physical *Shtar Tna'im* document and the ceramic plate for breaking. Purchases formal clothing for siblings, coordinates travel to the bride's city, and invites Yeshiva rabbis/friends.
 
 ### Phase 3: Reciprocal Shabbat Visits & Marriage Registration (Post-Erusin)
-*   See the [Detailed Reciprocal Shabbat Visits Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_reciprocal_shabbats.md) for logistics on hosting guest accommodations and gifts.
-*   See the [Detailed Rabbinate Marriage Registration Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_rabanut_registration.md) for opening the marriage file (*Tik Nisuin*) immediately after Erusin.
+*   See the [Detailed Reciprocal Shabbat Visits Use Case](./use_case_reciprocal_shabbats.md) for logistics on hosting guest accommodations and gifts.
+*   See the [Detailed Rabbinate Marriage Registration Use Case](./use_case_rabanut_registration.md) for opening the marriage file (*Tik Nisuin*) immediately after Erusin.
 *   **Joint (Administrative Prep):** Opening the marriage file at the Rabbinate, gathering required ID/parental documents, Rabbinical verification letters, paying fees, and coordinating witnesses.
 *   **Groom's Visit (Hosted by Bride's Side):**
     *   **Bride's Side:** Sourcing and booking overnight lodging for the groom nearby; stocking his room with refreshments (*Kibbud*).
@@ -57,9 +59,9 @@ This phase consists of two distinct events: the small Vort announcement and the 
     *   **Bride's Side:** Buying and bringing family gifts for the groom, his parents, and siblings; coordinating travel to his city.
 
 ### Phase 4: The Prep Period (1-2 Months before)
-*   See the [Detailed Wedding Preparation Stage Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_wedding_prep_stage.md) for specifics on vendor bookings and mass invitations.
-*   See the [Detailed Couple Meetings & Ritual Preparations Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_couple_meetings_and_ritual_preps.md) for specifics on private meetings, gifts, letters, and ritual items (Ketubah & Ring).
-*   See the [Detailed Apartment Sourcing & Married Life Essentials Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_apartment_and_living_prep.md) for renting the apartment, buying furniture, appliances, double kitchenware sets, and Jewish books.
+*   See the [Detailed Wedding Preparation Stage Use Case](./use_case_wedding_prep_stage.md) for specifics on vendor bookings and mass invitations.
+*   See the [Detailed Couple Meetings & Ritual Preparations Use Case](./use_case_couple_meetings_and_ritual_preps.md) for specifics on private meetings, gifts, letters, and ritual items (Ketubah & Ring).
+*   See the [Detailed Apartment Sourcing & Married Life Essentials Use Case](./use_case_apartment_and_living_prep.md) for renting the apartment, buying furniture, appliances, double kitchenware sets, and Jewish books.
 *   **Joint (Wedding Technical & Social Prep):**
     *   Aligning on the wedding city and booking the wedding hall.
     *   Selecting the catering vendor, tasting, and choosing specific dishes.
@@ -80,13 +82,16 @@ This phase consists of two distinct events: the small Vort announcement and the 
     *   Sourcing the halachically valid *Tabat Erusin* (plain gold ring) with his own funds and preparing the physical *Shtar Ketubah* document matching their community's *Nusach* (custom).
 
 ### Phase 5: Pre-Wedding Week & Shabbat Chatan
+*   See the [Detailed Shabbat Chatan Use Case](./use_case_shabbat_chatan.md) for synagogue coordination, Kiddush/meals, lodging, and pre-wedding-week reminders.
 *   **Bride's Side:** Bridal events, final adjustments.
-*   **Groom's Side:** Hosting the *Shabbat Chatan* (Aufruf) where the groom is called to the Torah, followed by communal festive meals.
+*   **Groom's Side:** Hosting the *Shabbat Chatan* (Aufruf) where the groom is called to the Torah, followed by communal festive meals. (Timing before vs. after the wedding is a Community Profile parameter.)
 
 ### Phase 6: The Wedding Day & Sheva Brachot Week
-*   See the [Detailed Sheva Brachot Stage Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_sheva_brachot_stage.md) for specifics on post-wedding meals and Shabbat logistics.
+*   See the [Detailed Wedding Day Use Case](./use_case_wedding_day.md) for the day-of run-sheet, Kibbudim execution, ritual items check, money gifts registry, and delegated vendor verification.
+*   See the [Detailed Sheva Brachot Stage Use Case](./use_case_sheva_brachot_stage.md) for specifics on post-wedding meals and Shabbat logistics.
 *   **Joint (The Wedding Day):**
-    *   The wedding ceremony (*Chuppah*) and reception.
+    *   The wedding ceremony (*Chuppah*) and reception, executed against the minute-by-minute run-sheet.
+    *   Registering money gifts received from guests (cash, checks, transfers) and feeding them into the reconciliation ledger.
     *   **Bride's Side / Groom's Side:** Coordinating separate guest receptions (*Kabbalat Panim* for Kallah, *Tisch* for Chatan) and managing their respective guest lists.
 *   **Post-Wedding (Sheva Brachot Week):**
     *   **Joint:** Coordinating the scheduling, venues, and custom guest lists for the seven days of post-wedding festive meals (*Sheva Brachot*), which can be hosted by either family or external hosts.
@@ -131,21 +136,28 @@ The agent filters and recommends vendors based on strict Orthodox standards:
 *   **Why:** Organizing seven consecutive days of mini-events immediately after the main wedding is exhausting. The agent automates the scheduling and guest tracking so the family can focus on celebrating.
 
 ### 8. Kosher Phone Voice Integration (IVR & Voice Agent)
-*   See the [Detailed Kosher Phone Voice Integration Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_kosher_phone_integration.md) for specifics on phone-based voice coordination.
-*   **What the system does:** Provides a conversational voice agent interface. Users calling from pre-registered phone lines are authenticated via Caller ID and can verbally query progress, check checklists, complete tasks, or add budget items using spoken Hebrew/Yiddish or keypad commands (DTMF).
+*   See the [Detailed Kosher Phone Voice Integration Use Case](./use_case_kosher_phone_integration.md) for specifics on phone-based voice coordination.
+*   **What the system does:** Provides a phone voice interface (DTMF keypad menus first; conversational speech later). Users calling from pre-registered phone lines get read-only access via Caller ID and can query progress and checklists; completing tasks or adding budget items always requires the caller's personal PIN.
 *   **Why:** Ensures full platform accessibility for Haredi family members who use approved internet-disabled "kosher phones" and cannot use modern smartphone apps or websites.
 
 ### 9. Vendor Collaboration & Contract Management
-*   See the [Detailed Vendor Collaboration Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_vendor_collaboration_and_contracts.md) for specifics on shared calendars, chats, and contracts.
-*   **What the system does:** Connects organizers and vendors via a shared workspace on mobile/web. It offers separate calendars, multi-party chats, auto-updates to contracts from chat changes, AI checklist digests from uploaded contracts, and integrated fiat/Stable-Shekel payments.
+*   See the [Detailed Vendor Collaboration Use Case](./use_case_vendor_collaboration_and_contracts.md) for specifics on shared calendars, chats, and contracts.
+*   **What the system does:** Connects organizers and vendors via a shared workspace on mobile/web. It offers separate calendars, multi-party chats, AI-drafted contract amendments that take effect only after both parties sign, AI checklist digests from uploaded contracts, and fiat payment tracking (digital escrow remains long-term vision — see [mvp_scope.md](./mvp_scope.md)).
 *   **Why:** Streamlines vendor communication, ensures all change requests are legally captured, and provides an easy verification checklist and payment system for the wedding day.
 
 ---
 
 ## Reference & Auxiliary Materials
-To support the planning process, the following reference databases and checklists have been compiled:
-*   [Detailed Vendor Collaboration Use Case](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/use_case_vendor_collaboration_and_contracts.md) — Shared calendars, chats, automatic contract revisions, and payment options.
-*   [Margan Wedding Vendors Database Guide](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/vendors_guide.md) — Reference on categories and generation of individual vendor cards (*kartisim*).
-*   [Reference: Customary Gifts Database](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/reference/gifts/customary_gifts_database.md) — What is customary to give, to whom, when, and how.
-*   [Reference: Jewish & Haredi Wedding Checklists](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/reference/checklists/jewish_wedding_checklist.md) — Systematized planning checklists and milestones.
-*   [Competitor Functionality & Gap Analysis](file:///c:/Users/shimo/OneDrive/Projects/Margan/docs/competitor_functionality.md) — Summary of Israeli and global wedding planners and their functional gaps.
+To support the planning process, the following cross-cutting specifications, reference databases, and checklists have been compiled:
+*   [MVP Scope & Release Prioritization](./mvp_scope.md) — v1/v2/vision feature allocation.
+*   [Roles & Permissions Model](./roles_and_permissions.md) — admin structure and the dual-side approval rule.
+*   [Domain Glossary & Entity Model](./domain_glossary.md) — shared vocabulary of entities and relations.
+*   [Non-Functional Requirements](./non_functional_requirements.md) — languages/RTL, Shabbat mode, privacy, security.
+*   [Planning Engine & Date Dependencies](./use_case_planning_engine_and_date_dependencies.md) — plan generation at creation and explicit re-planning.
+*   [Community Customs Parametrization](./community_customs_parametrization.md) — customs as Community Profile parameters.
+*   [Monetization Strategy](./monetization.md) — deferred; options recorded.
+*   [Detailed Vendor Collaboration Use Case](./use_case_vendor_collaboration_and_contracts.md) — Shared calendars, chats, signed contract amendments, and payment tracking.
+*   [Margan Wedding Vendors Database Guide](./vendors_guide.md) — Reference on categories and generation of individual vendor cards (*kartisim*).
+*   [Reference: Customary Gifts Database](./reference/gifts/customary_gifts_database.md) — What is customary to give, to whom, when, and how.
+*   [Reference: Jewish & Haredi Wedding Checklists](./reference/checklists/jewish_wedding_checklist.md) — Systematized planning checklists and milestones.
+*   [Competitor Functionality & Gap Analysis](./competitor_functionality.md) — Summary of Israeli and global wedding planners and their functional gaps.

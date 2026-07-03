@@ -3,7 +3,7 @@
 ## Overview
 Wedding planning involves intense, dynamic coordination between the organizing families (Groom's family, Bride's family, and the couple) and multiple external service providers (e.g., catering agencies, decorators, photographers, waiters, music bands). 
 
-**Margan** provides a collaborative ecosystem where both organizers and vendors interact. Through web browsers or native mobile app installations, parties can synchronize their calendars, maintain structured communication channels, log agreed modifications, auto-update service agreements, and handle secure payments (fiat currency or Stable-Shekel smart contracts).
+**Margan** provides a collaborative ecosystem where both organizers and vendors interact. Through web browsers or native mobile app installations, parties can synchronize their calendars, maintain structured communication channels, log agreed modifications, keep service agreements up to date through signed amendments, and track payments (fiat currency; digital escrow is a long-term vision — see [mvp_scope.md](./mvp_scope.md)).
 
 ---
 
@@ -33,10 +33,10 @@ Wedding planning involves intense, dynamic coordination between the organizing f
 
 ### Scenario D: Chat-Based Contract Updates & Document Generation
 1. **Discussing Adjustments:** The Bride chat-messages the waiter coordinator, requesting to add custom bar decorations and extra high-quality glassware. Similarly, she chats with the catering manager to replace one of the main course salads.
-2. **Summarizing Chat Iterations:** The system's AI assistant tracks the conversation. At the end of a detailed discussion or upon request, it generates a structured **Agreement Digest** summarizing:
+2. **Summarizing Chat Iterations:** The system's AI assistant tracks the conversation. At the end of a detailed discussion or upon request, it **automatically drafts** a structured **Agreement Digest** (amendment proposal) summarizing:
    - What changes were discussed (e.g., "Add custom tableware for 150 guests, replace Caesar salad with Mediterranean salad").
    - The estimated budget adjustments.
-3. **Automatic Contract Update:** Once both the organizers and the vendor contact click "Approve" on the Agreement Digest, the system automatically edits the main stored **Service Agreement / Contract** to reflect these changes in the appendix and adjusts the active budget ledger.
+3. **Dual Signature & Contract Update:** The Agreement Digest is only a *proposal*. Nothing enters the final **Service Agreement / Contract** until it is explicitly signed off by **both** parties: the organizers (a decisive action requiring dual-side approval per [roles_and_permissions.md](./roles_and_permissions.md)) and the vendor contact. Only after both signatures does the system append the amendment to the contract and adjust the active budget ledger. The contract is never modified automatically without these signatures.
 
 ### Scenario E: AI-Generated Vendor Checklist (Contract Digest)
 1. **Uploading the Contract:** The organizers upload the service contract received from the vendor (or capture it via mobile camera).
@@ -47,12 +47,11 @@ Wedding planning involves intense, dynamic coordination between the organizing f
 3. **Actionable Checklist:** The organizers receive a concise, chronological list of duties to check off on the day of the wedding or during vendor setup.
 
 ### Scenario F: Dual-Mode Payment Settlement
-1. **Selecting Payment Type:** Organizers navigate to the payment section of the specific vendor contract.
-2. **Option 1: Fiat Currency:** The user records payments made via traditional cash, bank transfers, or checks. The budget updates accordingly.
-3. **Option 2: Stable-Shekel Smart Contract:** 
-   - If both the organizer and vendor choose digital settlement, they use the integrated payment module.
-   - The user locks the agreed amount in a digital escrow smart contract denominated in **Stable-Shekels**.
-   - The smart contract automatically releases payments based on predefined milestone completions (e.g., 20% on contract signature, 60% on arrival at the venue, 20% after successful event completion).
+1. **Selecting Payment Type:** Organizers navigate to the payment section of the specific vendor contract. Recording or editing any payment is a decisive action requiring dual-side approval ([roles_and_permissions.md](./roles_and_permissions.md)).
+2. **Current Scope — Fiat Currency:** The user records payments made via traditional cash, bank transfers, or checks. The budget updates accordingly.
+3. **Long-Term Vision (out of scope for v1/v2) — Digital Escrow ("Stable-Shekel" Smart Contract):**
+   - A possible future option in which both parties lock the agreed amount in a digital escrow released on predefined milestones (e.g., 20% on contract signature, 60% on arrival at the venue, 20% after successful event completion).
+   - Deferred because no widely adopted stable-shekel instrument exists today, the regulatory burden is high, and the target audience is conservative about digital money. See [mvp_scope.md](./mvp_scope.md).
 
 ---
 
@@ -64,6 +63,6 @@ Wedding planning involves intense, dynamic coordination between the organizing f
 | **Dual Calendar Synchronization** | Separates organizer task calendars from vendor-specific scheduling calendars while syncing finalized booking times. | Prevents scheduling overlaps and ensures vendors know their setup and delivery times for each wedding. |
 | **Specialized Communication Channels** | Hosts private couple chats, side-specific family chats, and direct vendor channels. | Keeps discussions organized and prevents vendors from seeing private family planning debates. |
 | **Agreement Digest Generator** | Summarizes chat discussions into structured PDF/Markdown agreements capturing updates and notes. | Generates a clean audit trail of changes discussed during the planning phase. |
-| **Smart Contract Revisions** | Updates the main digital contract automatically once chat-negotiated changes are approved by both parties. | Eliminates manual paperwork updates and ensures the contract always represents the actual agreement. |
+| **AI-Proposed Contract Amendments** | Automatically drafts amendment proposals from chat-negotiated changes; appends them to the contract only after explicit sign-off by both the organizers (dual-side approval) and the vendor. | Eliminates manual paperwork drafting while ensuring the contract only ever changes with both parties' signatures. |
 | **AI Contract Digest Extractor** | Parses uploaded contracts to generate a simplified task checklist for the wedding day. | Saves the couple from reading lengthy legal documents on the wedding day to verify if the vendor is doing their job. |
-| **Dual-Mode Payment Gateway** | Tracks cash/fiat payments and executes automated Stable-Shekel smart contract escrows. | Offers flexibility for traditional payment methods while providing secure, trustless escrow releases for digital transactions. |
+| **Payment Tracker (Fiat)** | Records cash, bank transfer, and check payments against contracts, with dual-side approval. Digital escrow ("Stable-Shekel") remains a long-term vision only. | Covers how the target audience actually pays today; keeps the escrow option open without committing to it. |

@@ -33,17 +33,20 @@ To ensure complete accessibility, **Margan** provides a voice-based interface. U
 
 ## Key Functional Requirements
 
-### 1. Caller ID (CLI) Authentication
-*   **What the system does:** Maps inbound phone numbers to specific user accounts, roles (Groom's family vs. Bride's family), and wedding IDs. If a number is unrecognized, the system prompts for a secure PIN code.
-*   **Why:** Ensures security and privacy without requiring a login screen.
+### 1. Two-Level Phone Authentication (CLI + Mandatory PIN for Changes)
+*   **What the system does:** Maps inbound phone numbers to specific user accounts, roles (Groom's family vs. Bride's family), and wedding IDs. Access is tiered:
+    *   *Read-only access* (querying progress, hearing checklists): granted by recognized Caller ID alone. Unrecognized numbers require a PIN even for read access.
+    *   *State-changing operations* (marking tasks complete, adding budget items, any data modification): **always require the user's personal PIN**, even from a recognized number.
+*   **Why:** Caller ID can be spoofed and household phones are shared. Requiring a PIN for every modification prevents unauthorized changes while keeping simple status queries frictionless.
 
 ### 2. Conversational Speech-to-Text (STT) & Text-to-Speech (TTS)
 *   **What the system does:** Transcribes the user's spoken Hebrew or Yiddish, extracts planning-related intents (query status, complete task, add expense), and reads back responses using clear synthesized speech.
 *   **Why:** Allows natural, hands-free interaction for users who do not have screens.
 
-### 3. Keypad (DTMF) Fallback Interface
+### 3. Keypad (DTMF) Interface — First Delivery Phase
 *   **What the system does:** Provides a structured menu system using the phone keypad (e.g., *"Press 1 for task updates, press 2 to log an expense, press 3 for budget totals"*).
-*   **Why:** Serves as a backup in noisy environments or when speech recognition fails.
+*   **Why:** Works in noisy environments and when speech recognition fails.
+*   **Rollout note:** The DTMF menu system (with Hebrew voice prompts) is the **first phase** of the phone channel (see [mvp_scope.md](./mvp_scope.md)). The conversational speech interface (§2) follows once Hebrew STT quality is validated; Yiddish speech recognition is a later addition, as current STT quality for Yiddish is insufficient.
 
 ### 4. Real-Time Web & App Synchronization
 *   **What the system does:** Instantly synchronizes any updates made via voice call (e.g., marking a task as done or adding a budget item) so they appear immediately on the web and smartphone apps used by other family members.

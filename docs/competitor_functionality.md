@@ -1,6 +1,6 @@
 # Competitor Functionality & Gap Analysis
 
-This document provides a comprehensive analysis of wedding planning platforms, covering Israeli competitors (relevent to Haredi, Dati-Leumi, and secular markets) and top global mobile applications, identifying core features, pricing, and system gaps.
+This document provides a comprehensive analysis of wedding planning platforms, covering Israeli competitors (relevant to Haredi, Dati-Leumi, and secular markets) and top global mobile applications, identifying core features, pricing, and system gaps.
 
 ---
 
@@ -20,7 +20,7 @@ This document provides a comprehensive analysis of wedding planning platforms, c
     *   *Type:* Web & mobile app.
     *   *Features:* Interactive checklist (task manager), budget calculator, guest list manager, digital seating arranger (drag-and-drop), digital invitations (*Azmana*), and automated digital RSVP confirmations (via SMS/WhatsApp). Strict user review moderation.
     *   *Pricing:* Free for couples.
-*   **Mitchatnim (متחתנים):**
+*   **Mitchatnim (מתחתנים):**
     *   *Type:* Web portal (by Zap Group).
     *   *Features:* Comprehensive vendor search with religious filtering options, articles, inspiration galleries.
 *   **Easywed (איזיווד):**

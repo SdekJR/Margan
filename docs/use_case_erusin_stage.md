@@ -8,6 +8,8 @@ According to traditional custom in this project:
 *   The event is hosted in the **city where the bride's family resides**.
 *   The **Groom's side** is responsible for arriving with their guests, inviting Yeshiva contacts, preparing the *Shtar Tna'im* document, bringing the plate to break, and presenting the bride with her engagement gift.
 
+> **Note on customs and gifts:** Hosting responsibilities and the stage at which the engagement gifts are presented (Vort vs. Erusin) are Community Profile parameters — see [community_customs_parametrization.md](./community_customs_parametrization.md). The gift tasks listed below are the same single tasks referenced in the [Vort stage](./use_case_vort_stage.md), not duplicates.
+
 ---
 
 ## User Scenario: Organizing the Erusin

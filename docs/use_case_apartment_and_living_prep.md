@@ -9,11 +9,12 @@ Because apartments in Israel are commonly rented unfurnished, the couple must so
 
 ## User Scenario: Preparing the Home
 
-### 1. Apartment Sourcing (Yad2 Integration)
+### 1. Apartment Sourcing (Manual Listing Tracker)
 *   **What the system does:** 
-    *   Integrates with real estate search platforms (like *Yad2*) to aggregate apartment listings based on preferred geographical areas, budget, and religious neighborhood preferences.
-    *   Saves and compares listings, tracking communication with landlords and lease negotiation stages.
-*   **Why:** Sourcing an apartment manually across multiple cities is time-consuming. Having an aggregated, filterable dashboard of listings simplifies search logistics.
+    *   Provides a **manual listing tracker**: the family saves apartment listings they find (on *Yad2*, community bulletin boards, word of mouth) with address, price, area, and religious-neighborhood notes, then compares them side by side.
+    *   Tracks communication with landlords and lease negotiation stages per listing.
+    *   *Future option:* automated aggregation from real-estate platforms (e.g., Yad2) is possible only through a data partnership — Yad2 has no public API (see [mvp_scope.md](./mvp_scope.md)).
+*   **Why:** Sourcing an apartment across multiple cities is time-consuming. A single, filterable dashboard of saved listings simplifies search logistics even without automated feeds.
 
 ### 2. Wardrobe & Furniture Purchasing
 *   **What the system does:** Generates a purchasing and delivery checklist for essential furniture:
@@ -49,7 +50,7 @@ Because apartments in Israel are commonly rented unfurnished, the couple must so
 
 | Feature | What it does | Why it is needed |
 | :--- | :--- | :--- |
-| **Yad2 Listing Aggregator** | Pulls and filters apartment listings by price, location, and neighborhood. | Streamlines real estate search. |
+| **Apartment Listing Tracker** | Stores, filters, and compares manually saved apartment listings by price, location, and neighborhood; tracks landlord communication. (Automated Yad2 aggregation: future, partnership-dependent.) | Streamlines real estate search without depending on unavailable external APIs. |
 | **Double-Set Kosher Kitchen Planner** | A dual checklist ensuring every kitchen utensil purchase has a matching dairy and meat counterpart. | Prevents mistakes in keeping a kosher kitchen setup. |
 | **Delivery & Assembly Scheduler** | A calendar that overlays furniture and appliance delivery times with the couple's availability. | Coordinates multiple shipping arrivals to the new apartment. |
 | **Married Life Trousseau Checklist** | Lists basic linens, towels, and baseline Jewish library books needed for the household. | Ensures all foundational home items are acquired before move-in. |

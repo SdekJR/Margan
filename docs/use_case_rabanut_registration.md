@@ -45,6 +45,6 @@ Once the wedding is completed, the officiating Rabbi returns the signed *Ketubah
 | Feature | What it does | Why it is needed |
 | :--- | :--- | :--- |
 | **Document Vault & Status Tracker** | A central repository for uploading and verifying Teudat Zehuts, Ketubahs, and Rabbinical letters. | Keeps all legal and religious documents organized in one place. |
-| **Officiating Rabbi & Venue Verifier** | Cross-checks the venue's kosher certificate and the Rabbi's license against the Rabbinate's authorized database. | Prevents booking unauthorized venues or officiants. |
+| **Officiating Rabbi & Venue Verification Checklist (manual)** | Guides the family to verify manually that the venue holds a valid kosher certificate and that the Rabbi is Rabbinate-approved (what to ask, which document to request, where to check published lists). No automated cross-check: the Rabbinate provides no public API. | Prevents booking unauthorized venues or officiants, without depending on an integration that does not exist. |
 | **Witness Coordination Manager** | Sends schedules and instructions to the selected witnesses. | Ensures witnesses arrive at the Rabbinate office on time. |
 | **Post-Wedding Administrative Guide** | Step-by-step checklist for returning the Ketubah and updating Misrad HaPnim. | Ensures the marriage is registered with the state without delay. |
